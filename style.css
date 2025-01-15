@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+.navName {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.navName li{
+    display: inline;
+}
+
+.leftName{
+    display: flex;
+    gap: 4rem;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.rightName {
+    display: flex;
+    gap: 4rem;
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.rightName li:hover {
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Wfooter {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    color: white;
+    background-color: black;
+    height: 200px;
+}
+
+.Wfooter ul {
+    margin-top: 20px;
+}
+
+.footerBrand h1 {
+    margin-right: 800px;
+}
+
+.content1 {
+    position: relative;
+    line-height: 1.5;
+    justify-content: space-between;
+    right: 500px;
+}
+
+.content2 {
+    position: relative;
+    line-height: 1.5;
+    justify-content: space-between;
+    right: 300px;
+}
+
+.content3 {
+    position: relative;
+    line-height: 1.5;
+    justify-content: space-between;
+    right: 100px;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.herosection1 {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.herosection2 {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.herosection3 {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+
+}
+
+.innerH {
+    color: black;
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.display {
+    background-color: black;
+    color: white;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 80px;
+    display: flex;
+    gap: 2rem;
+}
+
+.display button {
+    cursor: pointer;
+    color: black;
+    height: 20px;
+    width: 18px;
+    background-color: white;
+}
+
+.add {
+    margin-top: 3px;
+    margin-left: 210px;
+}
+
+.add button {
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.rightName a {
+    color: white;
+    text-decoration: none;
+}
+
+.rightName a:hover {
+    color: orange;
+}

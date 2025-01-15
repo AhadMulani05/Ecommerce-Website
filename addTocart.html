@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        table {
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 95%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul class="navName">
+      <ul class="leftName">
+      <li>MyBrand</li>
+      </ul>
+      <ul class="rightName">
+        <li><a href="index.html">Home</a></li>
+      <li>Contact us</li>
+      <li>About</li>
+      <li><a href="addTocart.html">Add to cart</a></li>
+      </ul>      
+    </ul>
+  </nav>
+
+    <h1 style="margin-top: 30px; margin-left: 20px;">Your Cart</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr.no</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total Price</th>
+                <th>Delete Item</th>
+            </tr>
+        </thead>
+        <tbody id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <button id="clear-cart" style="margin-top: 30px; margin-left: 20px; width: 100px; height: 40px; cursor: pointer;">Clear Cart</button>
+
+    <footer class="Wfooter" style="margin-top: 320px;">
+      <ul class="footerBrand">
+        <h1>MyBrand</h1>
+      </ul>
+      <ul class="content1">
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+      </ul>
+      <ul class="content2">
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+      </ul>
+      <ul class="content3">
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+      </ul>
+  </footer>
+
+    <script src="addTocart.js"></script>
+</body>
+</html>
